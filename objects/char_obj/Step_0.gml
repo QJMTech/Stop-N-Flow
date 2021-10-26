@@ -27,7 +27,7 @@ if ( onTheGround )
 	if ( jump )
 	{
 			// Change this to affect jump height
-			ySpeed = -11;	
+			ySpeed = -6;	
 	}
 }
 // Jumping animation:

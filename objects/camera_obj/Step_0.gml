@@ -11,5 +11,5 @@ new_y = lerp( current_y, camera_y, 0.1 );
 
 camera_set_view_pos( view_camera[0], new_x, new_y );
 
-layer_x( layer_get_id("Background"), new_x * 0.65 );
-layer_y( layer_get_id("Background"), new_y * 0.65 );
+//layer_x( layer_get_id("Background"), new_x * 0.65 );
+//layer_y( layer_get_id("Background"), new_y * 0.65 );
