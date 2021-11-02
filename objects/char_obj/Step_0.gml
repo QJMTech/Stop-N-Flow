@@ -4,6 +4,7 @@ var xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump = keyboard_check_pressed (vk_space );
 var onTheGround = place_meeting( x, y + 1, wall_obj);
 
+draw_text(10,10, string(char_obj.x - 16));
 if ( xDirection != 0 )
 {
 	image_xscale = xDirection;	
@@ -62,3 +63,14 @@ if ( place_meeting( x, y + ySpeed, wall_obj ))
 	ySpeed = 0;	
 }
 y += ySpeed;
+
+if ( movementAllowed == false && moving == true )
+	{
+	show_debug_message("You Lose");
+	}
+	
+if (char_obj.x - 16 >= 2500)
+	{
+	show_debug_message("You win");
+	game_end();
+	}
