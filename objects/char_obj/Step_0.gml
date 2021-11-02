@@ -24,6 +24,14 @@ ySpeed += .6;
 
 if ( onTheGround )
 {	
+	if ( xDirection != 0 )
+	{
+		sprite_index = panda_moving_spr;
+	}
+	else
+	{
+		sprite_index = panda_normal_spr;	
+	}
 	if ( jump )
 	{
 			// Change this to affect jump height

@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"StayingAlive","path":"sounds/StayingAlive/StayingAlive.yy",},"order":0,},
     {"id":{"name":"camera_obj","path":"objects/camera_obj/camera_obj.yy",},"order":0,},
     {"id":{"name":"panda_normal_spr","path":"sprites/panda_normal_spr/panda_normal_spr.yy",},"order":5,},
     {"id":{"name":"char_obj","path":"objects/char_obj/char_obj.yy",},"order":1,},
@@ -7,6 +8,7 @@
     {"id":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},"order":2,},
     {"id":{"name":"temp_char_spr","path":"sprites/temp_char_spr/temp_char_spr.yy",},"order":0,},
     {"id":{"name":"background_spr","path":"sprites/background_spr/background_spr.yy",},"order":4,},
+    {"id":{"name":"panda_moving_spr","path":"sprites/panda_moving_spr/panda_moving_spr.yy",},"order":6,},
     {"id":{"name":"temp_wall_spr","path":"sprites/temp_wall_spr/temp_wall_spr.yy",},"order":3,},
     {"id":{"name":"main_rm","path":"rooms/main_rm/main_rm.yy",},"order":0,},
   ],
@@ -52,7 +54,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"background_spr","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "Stop'N'Flow",
