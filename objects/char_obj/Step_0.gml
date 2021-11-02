@@ -9,18 +9,16 @@ if ( xDirection != 0 )
 	image_xscale = xDirection;	
 	// set moving to true
 	moving = true;
-	show_debug_message("moving");
 }
 
 else
 {
 	// set moving to false
 	moving = false;
-	show_debug_message("stopped");
 }
 
 xSpeed = xDirection * player_speed;
-ySpeed += .6;
+ySpeed += .7;
 
 if ( onTheGround )
 {	
