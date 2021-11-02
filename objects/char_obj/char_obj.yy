@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "temp_char_spr",
-    "path": "sprites/temp_char_spr/temp_char_spr.yy",
+    "name": "panda_normal_spr",
+    "path": "sprites/panda_normal_spr/panda_normal_spr.yy",
   },
   "solid": false,
   "visible": true,
