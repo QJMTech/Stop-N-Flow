@@ -33,6 +33,7 @@ if ( onTheGround )
 	}
 	if ( jump )
 	{
+			audio_play_sound(jump_audio, 10, false);
 			// Change this to affect jump height
 			ySpeed = -6;	
 	}
@@ -67,10 +68,19 @@ y += ySpeed;
 if ( movementAllowed == false && moving == true )
 	{
 	show_debug_message("You Lose");
+	audio_stop_all();
+	audio_play_sound(gameOver, 10, false);
+	
+	room_goto(game_over_rm);
+	
 	}
 	
 if (char_obj.x - 16 >= 2500)
 	{
 	show_debug_message("You win");
-	game_end();
+	audio_stop_all();
+	audio_play_sound(JaimeSong2, 10, true);
+	room_goto(win_rm);
+	
+	
 	}

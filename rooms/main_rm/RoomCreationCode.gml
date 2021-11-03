@@ -5,7 +5,7 @@ globalvar customFont;
 customFont = font_add("DiscoBlingRegular-MjGJ.ttf", 24, false, false, 32, 128);
 
 // start audio
-sound = audio_play_sound(StayingAlive, 10, true);
+sound = audio_play_sound(JaimeSong2, 10, true);
 
 // allow movement once audio plays
 movementAllowed = true;

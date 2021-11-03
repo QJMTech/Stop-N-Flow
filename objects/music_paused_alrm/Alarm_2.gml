@@ -1,7 +1,7 @@
 show_debug_message("Move now!");
 
 // fade in audio
-sound = audio_play_sound(StayingAlive, 10, true);
+sound = audio_play_sound(JaimeSong2, 10, true);
 
 // set movement allowed to true
 movementAllowed = true;
